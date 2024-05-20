@@ -4,7 +4,7 @@ import nextLogo from '../images/Logo2.svg';
 const Footer = () => {
    
     return (
-        <section className="relative">
+        <section className="relative -bottom-24">
             <div className="flex justify-between gap-5">
                 <div className='w-1/3 pr-24'>
                     <div className='w-full'>
