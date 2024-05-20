@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import { options } from './config/options';
 import { useTheme } from './hooks/useTheme';
 import axios from 'axios';
+import BlogHighLight from './components/BlogHighLight';
 
 function App() {
     const { posts, setPosts } = useTheme();
@@ -28,6 +29,7 @@ function App() {
     return (
         <div className="w-11/12 mx-auto">
             <Navbar />
+            <BlogHighLight />
             <Footer />
         </div>
     );
