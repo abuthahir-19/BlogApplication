@@ -1,5 +1,5 @@
 import BlogHighLightImg from '../images/Image.jpg';
-import { CgProfile } from 'react-icons/cg';
+import { FaUserCircle } from 'react-icons/fa';
 
 const BlogHighLight = () => {
     return (
@@ -12,7 +12,11 @@ const BlogHighLight = () => {
             <div className="absolute top-1/2 px-10">
                 <p className="bg-blue-500 px-4 py-1 inline-block text-white rounded-md font-medium text-lg">Technology</p>
                 <h1 className="text-white font-bold text-5xl w-10/12 mt-6">The impact of technology on the Workplace: How Technology is Changing</h1>
-                <CgProfile />
+                <div className='text-white flex items-center mt-6'>
+                    <FaUserCircle style={{ height: '40px', width: '40px', color: 'white', marginRight: '20px' }} />
+                    <p className='mr-5'>Tracey Wilson</p>
+                    <p>August 25, 2022</p>
+                </div>
             </div>
         </section>
     );

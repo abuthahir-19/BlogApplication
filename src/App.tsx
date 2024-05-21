@@ -30,6 +30,7 @@ function App() {
         <div className="w-11/12 mx-auto">
             <Navbar />
             <BlogHighLight />
+            <p className='font-bold text-2xl mt-4 text-slate-700'>Latest Posts</p>
             <Footer />
         </div>
     );

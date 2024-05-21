@@ -10,6 +10,10 @@ type Category = {
 type Post = {
     id: number;
     category: Category;
+    author: {
+        name: string;
+        profile: string;
+    }
     title: string;
     body: string;
     excerpt: string;
