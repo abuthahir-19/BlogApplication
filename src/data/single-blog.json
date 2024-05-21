@@ -1,0 +1,30 @@
+{
+    "count": 1,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 5,
+            "category": {
+                "id": 7,
+                "title": "Psychology",
+                "categoryDesc": "Evergreen psychology blogs.",
+                "categoryImage": "https://s3.us-west-004.backblazeb2.com/encurate/static/blogsapi/1/Psychology-Psychology.png"
+            },
+            "title": "Why do I keep having nightmares",
+            "body": "Many adults and children suffer from nightmares. While nightmares are more common in children, up to 85% of adults report that they sometimes have nightmares. That fact offers little comfort to the person who is waking up in the middle of the night in a panic. It’s not only the fact that nightmares are unpleasant. Having nightmares can lead to a lack of sleep. Often, people will feel that they are unable to fall back asleep after a nightmare. The resulting sleep deprivation can cause all sorts of problems. From a lack of focus at work to an increase in the risk of car accidents and even disease. Not getting enough sleep can be risky.\r\n\r\nBecause nightmares often lead to sleep deprivation, it increases the stress in our daily life. Of course, more stress in life increases the risk of having more nightmares. To the nightmare suffer, it seems to be an endless loop with no end in sight.\r\n\r\nTo stop having nightmares, it is important to understand why we have them in the first place. Yet, sometimes it is hard to understand why the nightmares come. They seem to appear out of nowhere and will take up residence in our sleep for days, weeks or even months at a time. We want to get rid of them - but it’s hard to know where to start if we don’t understand why they appear in the first place!\r\n\r\nSo, Why Do I Keep Having Nightmares?\r\n\r\nSeveral potential causes of nightmares have been identified, based on people’s reports and scientific studies. \r\n\r\n●Medication. Certain types of medication can cause nightmares as a side effect. Many types of medications can interfere with dreams. For example, anti-depressants such as SSRIs, medication for blood pressure (beta-blockers) or cholesterol, medication for Alzheimer’s and Parkinson's, sleeping aids and more. Please consult your doctor if you are currently taking any medication and suspect that they might be contributing to your nightmares. Keep in mind that withdrawal from medication can also cause nightmares. \r\n●Was It Something You Ate? Some people report having nightmares when they eat right before sleep, or when they eat certain foods. Cheese and other dairy products, foods high in sugar, and spicy food have all been reported to cause nightmares in some. Alcohol can also be a cause of stressful dreams and nightmares. You can start to keep a food and sleep blog to notice any trends between what you consume and what you dream.\r\n●Stress and trauma. Many people start having nightmares after going through a traumatic experience, such as a car accident, physical assault, or military service. For others, it is not a single traumatic event but a period of stress. It’s not a coincidence that university students tend to have nightmares around the exam period or that others experience bad dreams during a busy time at work when they are working long hours.\r\n●Depression, anxiety, PTSD and sleep disorders. Some people struggle with certain conditions in their day to day life that make nightmares more likely. Sleep apnea and restless leg syndrome have been linked to increased nightmares. If nightmares are recurring, they can themselves be classified as a disorder. Getting a diagnosis and treatment for these underlying conditions and reduce the frequency of the nightmares.\r\n\r\nIf you have regular nightmares (once a week or more), your nightmares are severe, or you are unable to understand why you have nightmares, it may be time to see a specialist. You can make an appointment with a sleep clinic. There, you can undergo tests and a specialist can help you come up with possible solutions.",
+            "excerpt": "Many adults and children suffer from nightmares. While nightmares are more common in children, up to 85% of adults report that they sometimes have nightmares.",
+            "tags": "nightmares,sleep,dreams",
+            "contentSourceName": null,
+            "contentSourceURL": null,
+            "extraImageUrl": null,
+            "extraImageAttribution": null,
+            "imageOwnerName": null,
+            "imageOwnerBacklink": null,
+            "image": "https://s3.us-west-004.backblazeb2.com/encurate/static/blogsapi/2/Why_do_I_keep_having_nightmares-Why_Do_I_Keep_Having_Nightmares.jpg",
+            "videoURL": null,
+            "date_published": "2022-08-20T05:57:38.321733Z",
+            "website": null
+        }
+    ]
+}
