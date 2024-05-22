@@ -4,7 +4,6 @@ import Navbar from './components/Navbar';
 import { useTheme } from './hooks/useTheme';
 import axios from 'axios';
 import BlogHighLight from './components/BlogHighLight';
-import BlogPost from './components/BlogPost';
 import BlogsLists from './components/BlogsLists';
 
 function App() {
