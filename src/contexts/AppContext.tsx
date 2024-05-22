@@ -1,6 +1,6 @@
 import { type ReactNode, createContext, useState } from "react";
 
-type Category = {
+export type Category = {
     id: number;
     title: string;
     categoryDesc: string;
@@ -21,8 +21,8 @@ type Post = {
     contentSourceName: (string | null);
     contentSourceURL: (string | null);
     extraImageUrl: (string | null);
-    imageOwnerName: string;
-    imageOwnerBacklink: string;
+    imageOwnerName: (string | null);
+    imageOwnerBacklink: (string | null);
     image: string;
     videoURL: (string | null);
     date_published: string;
