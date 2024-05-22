@@ -1,11 +1,11 @@
 import { useEffect } from 'react';
 import Footer from './components/Footer';
 import Navbar from './components/Navbar';
-import { options } from './config/options';
 import { useTheme } from './hooks/useTheme';
 import axios from 'axios';
 import BlogHighLight from './components/BlogHighLight';
 import BlogPost from './components/BlogPost';
+import BlogsLists from './components/BlogsLists';
 
 function App() {
     const { posts, setPosts } = useTheme();
@@ -26,15 +26,11 @@ function App() {
     }, [])
 
     return (
-        <div className="w-11/12 mx-auto">
+        <div className="w-[85%] mx-auto">
             <Navbar />
             <BlogHighLight />
-            <p className='font-bold text-2xl mt-4 text-slate-700'>Latest Posts</p>
-            
-            { posts.map (post => (
-                <BlogPost image={post.image} category={post.category} title={post.title} date_published={post.date_published} author={post.author} />
-            ))}
-            
+            <p className='font-bold text-2xl mt-4 text-slate-700 py-5 px-3 mx-auto'>Latest Posts</p>
+            <BlogsLists posts={posts} />           
             <Footer />
         </div>
     );

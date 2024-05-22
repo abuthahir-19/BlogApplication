@@ -7,7 +7,7 @@ export type Category = {
     categoryImage: string;
 };
 
-type Post = {
+export type Post = {
     id: number;
     category: Category;
     author: {

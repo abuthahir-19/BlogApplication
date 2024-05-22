@@ -3,11 +3,11 @@ import { FaUserCircle } from 'react-icons/fa';
 
 const BlogHighLight = () => {
     return (
-        <section className="relative">
+        <section className="relative w-full box-border my-7">
             <img 
                 src={BlogHighLightImg} 
                 alt="This is trending topic today !"
-                // style={{ height: '80%'}}
+                className="w-full"
             />
             <div className="absolute top-1/2 px-10">
                 <p className="bg-blue-500 px-4 py-1 inline-block text-white rounded-md font-medium text-lg">Technology</p>
