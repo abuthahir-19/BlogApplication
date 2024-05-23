@@ -9,9 +9,9 @@ const BlogHighLight = () => {
                 alt="This is trending topic today !"
                 className="w-full"
             />
-            <div className="absolute top-1/2 px-10">
+            <div className="absolute bottom-14 px-10">
                 <p className="bg-blue-500 px-4 py-1 inline-block text-white rounded-md font-medium text-lg">Technology</p>
-                <h1 className="text-white font-bold text-5xl w-10/12 mt-6">The impact of technology on the Workplace: How Technology is Changing</h1>
+                <h1 className="text-white font-bold text-4xl w-10/12 mt-6">The impact of technology on the Workplace: How Technology is Changing</h1>
                 <div className='text-white flex items-center mt-6'>
                     <FaUserCircle style={{ height: '40px', width: '40px', color: 'white', marginRight: '20px' }} />
                     <p className='mr-5'>Tracey Wilson</p>

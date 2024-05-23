@@ -22,7 +22,7 @@ function App() {
         };
 
         fetchPosts();
-    }, [])
+    }, [posts])
 
     return (
         <div className="w-[85%] mx-auto">

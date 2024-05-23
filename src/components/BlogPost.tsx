@@ -16,7 +16,7 @@ type BlogPostProps = {
 
 const BlogPost = ({ image, category, title, date_published, author }: BlogPostProps) => {
     return (
-        <div className="flex flex-col w-[392px] h-[488px] border-1 rounded-lg">
+        <div className="flex flex-col w-[340px] h-auto border-1 rounded-lg">
             <div className="p-3 h-1/2">
                 <img className="rounded-lg h-full w-full" src={image} alt="BlogPostImage" />
             </div>
