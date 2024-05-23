@@ -7,7 +7,7 @@ const BlogHighLight = () => {
             <img 
                 src={BlogHighLightImg} 
                 alt="This is trending topic today !"
-                className="w-full"
+                className="w-full relative"
             />
             <div className="absolute bottom-14 px-10">
                 <p className="bg-blue-500 px-4 py-1 inline-block text-white rounded-md font-medium text-lg">Technology</p>
