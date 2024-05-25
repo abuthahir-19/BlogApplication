@@ -18,7 +18,7 @@ const Navbar = () => {
     }, [isDarkMode]);
 
     return (
-        <section className='flex justify-between items-center mx-auto p-3 w-full'>
+        <section className='flex justify-between items-center mx-auto px-3 py-6 w-full'>
             <a href="/">
                 <img
                     src={ isDarkMode ? AppLogoDark : AppLogoLight }
@@ -41,7 +41,7 @@ const Navbar = () => {
             <div className='flex items-center justify-between w-[30%]'>
                 <div className='flex justify-between items-center px-3 dark:bg-gray-800 rounded-md'>
                     <input
-                        className='dark:bg-gray-800 outline-none bg-none py-2'
+                        className='dark:bg-gray-800 outline-none bg-none py-2 px-3'
                         type="text"
                         placeholder='Search'
                     />

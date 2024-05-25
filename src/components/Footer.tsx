@@ -4,24 +4,24 @@ import nextLogo from '../images/Logo2.svg';
 const Footer = () => {
    
     return (
-        <section className="relative -bottom-24">
+        <section className="relative mt-24">
             <div className="flex justify-between gap-5">
                 <div className='w-1/3 pr-24'>
                     <div className='w-full'>
-                        <h4 className='font-bold text-lg text-slate-700'>About</h4>
-                        <p className='mt-3 text-base text-slate-600'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est, eum aliquid soluta numquam quo sapiente vitae reiciendis aperiam quaerat, explicabo facilis! Inventore hic eligendi cumque totam officia corporis voluptas deleniti.</p>
+                        <h4 className='font-bold text-lg text-slate-700 dark:text-white'>About</h4>
+                        <p className='mt-3 text-base text-slate-600 dark:text-gray-400'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est, eum aliquid soluta numquam quo sapiente vitae reiciendis aperiam quaerat, explicabo facilis! Inventore hic eligendi cumque totam officia corporis voluptas deleniti.</p>
                     </div>
 
                     <div className='w-full'>
-                        <p className='mt-3 text-slate-600'><strong className='text-slate-700'>Email:</strong> info@metablog.com</p>
-                        <p className='text-slate-600'><strong className='text-slate-700'>Phone:</strong> 7895426314</p>
+                        <p className='mt-3 text-slate-600 dark:text-gray-400'><strong className='text-slate-700 dark:text-white'>Email:</strong> info@metablog.com</p>
+                        <p className='text-slate-600 dark:text-gray-400'><strong className='text-slate-700 dark:text-white'>Phone:</strong> 7895426314</p>
                     </div>
                 </div>
 
                 <div className='flex w-1/3'>
                     <div className='w-full leading-8'>
-                        <h4 className='font-bold text-lg text-slate-700'>Quick Link</h4>
-                        <ul className='mt-3 text-slate-600'>
+                        <h4 className='font-bold text-lg text-slate-700 dark:text-white'>Quick Link</h4>
+                        <ul className='mt-3 text-slate-600 dark:text-gray-400'>
                             <li><a href="/">Home</a></li>
                             <li><a href="/about">About</a></li>
                             <li><a href="/blog">Blog</a></li>
@@ -31,8 +31,8 @@ const Footer = () => {
                         </ul>
                     </div>
                     <div className='w-full leading-8'>
-                        <h4 className='font-bold text-lg text-slate-700'>Category</h4>
-                        <ul className='mt-3 text-slate-600'>
+                        <h4 className='font-bold text-lg text-slate-700 dark:text-white'>Category</h4>
+                        <ul className='mt-3 text-slate-600 dark:text-gray-400'>
                             <li><a href="/lifestyle">LifeStyle</a></li>
                             <li><a href="/technology">Technology</a></li>
                             <li><a href="/travel">Travel</a></li>
@@ -45,8 +45,8 @@ const Footer = () => {
                 </div>
                 <div className='w-1/3 text-center flex flex-col justify-center items-center'>
                     <div className='text-center w-3/4'>
-                        <p className='font-extrabold text-lg text-slate-700'>Weekly Newsletter</p>
-                        <p className='text-slate-600'>Get Blog articles and offer via emails</p>
+                        <p className='font-extrabold text-lg text-slate-700 dark:text-white'>Weekly Newsletter</p>
+                        <p className='text-slate-600 dark:text-gray-400'>Get Blog articles and offer via emails</p>
                     </div>
                     <div className='w-full p-5'>
                         <div className='flex border-2 justify-between items-center rounded-md border-slate-300 mt-4'>
