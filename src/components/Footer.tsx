@@ -4,8 +4,8 @@ import nextLogo from '../images/Logo2.svg';
 const Footer = () => {
    
     return (
-        <section className="relative mt-24">
-            <div className="flex justify-between gap-5">
+        <section className="relative mt-24 pt-12 dark:bg-gray-950">
+            <div className="flex justify-between gap-5 w-[85%] mx-auto">
                 <div className='w-1/3 pr-24'>
                     <div className='w-full'>
                         <h4 className='font-bold text-lg text-slate-700 dark:text-white'>About</h4>
@@ -43,17 +43,17 @@ const Footer = () => {
                     </div>
 
                 </div>
-                <div className='w-1/3 text-center flex flex-col justify-center items-center'>
+                <div className='w-1/3 text-center flex flex-col justify-center items-center dark:bg-gray-700 rounded-xl'>
                     <div className='text-center w-3/4'>
                         <p className='font-extrabold text-lg text-slate-700 dark:text-white'>Weekly Newsletter</p>
                         <p className='text-slate-600 dark:text-gray-400'>Get Blog articles and offer via emails</p>
                     </div>
                     <div className='w-full p-5'>
-                        <div className='flex border-2 justify-between items-center rounded-md border-slate-300 mt-4'>
+                        <div className='flex border-1 justify-between items-center rounded-md border-slate-300 mt-4 dark:bg-gray-950 dark:border-slate-500'>
                             <input
                                 type="text"
                                 placeholder='Your Email'
-                                className='outline-none border-none p-3 w-full'
+                                className='outline-none border-none py-3 ml-3 w-full dark:bg-gray-950'
                             />
                             <MdOutlineMail className='text-2xl text-slate-600 mr-2' />
                         </div>
@@ -64,8 +64,8 @@ const Footer = () => {
                 </div>
             </div>
 
-            <hr className='mt-12 border-slate-300' />
-            <div className='py-8 flex items-center justify-between w-full'>
+            <hr className='mt-12 border-slate-300 w-[85%] mx-auto dark:border-slate-600' />
+            <div className='py-8 flex items-center justify-between w-[85%] mx-auto'>
                 <div className='flex gap-3'>
                     <img 
                         src={nextLogo}
