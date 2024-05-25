@@ -1,8 +1,5 @@
 {
-    "count": 7,
-    "next": null,
-    "previous": null,
-    "results": [
+    "blogs-by-category": [
         {
             "id": 20,
             "category": {

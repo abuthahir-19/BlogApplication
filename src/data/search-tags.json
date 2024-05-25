@@ -1,8 +1,5 @@
 {
-    "count": 4,
-    "next": null,
-    "previous": null,
-    "results": [
+    "search-tags": [
         {
             "id": 15,
             "category": {

@@ -1,8 +1,5 @@
 {
-    "count": 30,
-    "next": "https://encurate.app/meta/blogsapi/?page=2",
-    "previous": null,
-    "results": [
+    "all-blogs": [
         {
             "id": 31,
             "category": {

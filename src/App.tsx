@@ -8,12 +8,11 @@ import BlogsLists from './components/BlogsLists';
 
 function App() {
     const { posts, setPosts } = useTheme();
-    // const { image, category, title, date_published, author } = results[0];
-
+    
     useEffect(() => {
         const fetchPosts = async () => {
             try {
-                const response = await axios.get('http://localhost:3500/results');
+                const response = await axios.get('http://localhost:3500/latest-posts');
                 const data = response.data;
                 setPosts(data);
             } catch (er) {
