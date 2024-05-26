@@ -43,7 +43,7 @@ const Footer = () => {
                     </div>
 
                 </div>
-                <div className='w-1/3 text-center flex flex-col justify-center items-center p-5 bg-white dark:bg-slate-700 rounded-xl'>
+                <div className='w-1/3 text-center flex flex-col justify-center items-center p-5 bg-white dark:bg-slate-900 rounded-xl'>
                     <div className='text-center w-3/4'>
                         <p className='font-extrabold text-lg text-slate-700 dark:text-white'>Weekly Newsletter</p>
                         <p className='text-slate-600 dark:text-gray-400'>Get Blog articles and offer via emails</p>
