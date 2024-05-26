@@ -4,7 +4,7 @@ import nextLogo from '../images/Logo2.svg';
 const Footer = () => {
    
     return (
-        <section className="relative mt-24 pt-12 dark:bg-gray-950">
+        <section className="relative mt-24 pt-12 bg-slate-100 dark:bg-gray-950">
             <div className="flex justify-between gap-5 w-[85%] mx-auto">
                 <div className='w-1/3 pr-24'>
                     <div className='w-full'>
@@ -43,7 +43,7 @@ const Footer = () => {
                     </div>
 
                 </div>
-                <div className='w-1/3 text-center flex flex-col justify-center items-center dark:bg-gray-700 rounded-xl'>
+                <div className='w-1/3 text-center flex flex-col justify-center items-center p-5 bg-white dark:bg-slate-700 rounded-xl'>
                     <div className='text-center w-3/4'>
                         <p className='font-extrabold text-lg text-slate-700 dark:text-white'>Weekly Newsletter</p>
                         <p className='text-slate-600 dark:text-gray-400'>Get Blog articles and offer via emails</p>

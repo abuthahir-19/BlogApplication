@@ -39,9 +39,9 @@ const Navbar = () => {
             </nav>
 
             <div className='flex items-center justify-between w-[30%]'>
-                <div className='flex justify-between items-center px-3 bg-slate-200 dark:bg-gray-800 rounded-md'>
+                <div className='flex justify-between items-center px-3 bg-slate-100 dark:bg-gray-800 rounded-md'>
                     <input
-                        className='bg-slate-200 dark:bg-gray-800 outline-none bg-none py-2 px-3'
+                        className='bg-slate-100 dark:bg-gray-800 outline-none bg-none py-2 px-3'
                         type="text"
                         placeholder='Search'
                     />
