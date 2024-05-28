@@ -20,14 +20,14 @@ const Navbar = () => {
 
     return (
         <section className='flex justify-between items-center mx-auto px-3 py-6 w-full'>
-            <a href="/">
+            <Link to="/">
                 <img
                     src={ isDarkMode ? AppLogoDark : AppLogoLight }
                     alt='Something sample'
                     width={130}
                     height={130}
                 />
-            </a>
+            </Link>
 
             <nav>
                 <ul className='flex text-lg font-normal'>
