@@ -5,6 +5,7 @@ import { Switch } from '@nextui-org/switch';
 import { ChangeIcon } from './ChangeIcon';
 import { useTheme } from '../hooks/useTheme';
 import { useEffect } from 'react';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
     const { isDarkMode, changeTheme } = useTheme();
@@ -30,11 +31,11 @@ const Navbar = () => {
 
             <nav>
                 <ul className='flex text-lg font-normal'>
-                    <li className='px-4 py-1'><a href="/">Home</a></li>
-                    <li className='px-4 py-1'><a href="/blog">Blog</a></li>
-                    <li className='px-4 py-1'><a href="/single-post">Single Post</a></li>
-                    <li className='px-4 py-1'><a href="/pages">Pages</a></li>
-                    <li className='px-4 py-1'><a href="/contact">contact</a></li>
+                    <li className='px-4 py-1'><Link to="/">Home</Link></li>
+                    <li className='px-4 py-1'><Link to="/blog">Blog</Link></li>
+                    <li className='px-4 py-1'><Link to="/single-post">Single Post</Link></li>
+                    <li className='px-4 py-1'><Link to="/pages">Pages</Link></li>
+                    <li className='px-4 py-1'><Link to="/contact">contact</Link></li>
                 </ul>
             </nav>
 

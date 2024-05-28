@@ -9,9 +9,9 @@ type ChangeIconProps = {
 const ChangeIcon = ({ isSelected, className }: ChangeIconProps) => {
     return (
         isSelected ? (
-            <MoonIcon className={className} />
-        ) : (
             <SunIcon className={className} />
+        ) : (
+            <MoonIcon className={className} />
         )
     )
 }

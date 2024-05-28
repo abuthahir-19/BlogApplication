@@ -1,5 +1,6 @@
 import { MdOutlineMail } from "react-icons/md";
 import nextLogo from '../images/Logo2.svg';
+import { Link } from "react-router-dom";
 
 const Footer = () => {
    
@@ -22,23 +23,23 @@ const Footer = () => {
                     <div className='w-full leading-8'>
                         <h4 className='font-bold text-lg text-slate-700 dark:text-white'>Quick Link</h4>
                         <ul className='mt-3 text-slate-600 dark:text-gray-400'>
-                            <li><a href="/">Home</a></li>
-                            <li><a href="/about">About</a></li>
-                            <li><a href="/blog">Blog</a></li>
-                            <li><a href="/achived">Archived</a></li>
-                            <li><a href="/author">Author</a></li>
-                            <li><a href="/contact">Contact</a></li>
+                            <li><Link to="/">Home</Link></li>
+                            <li><Link to="/about">About</Link></li>
+                            <li><Link to="/blog">Blog</Link></li>
+                            <li><Link to="/achived">Archived</Link></li>
+                            <li><Link to="/author">Author</Link></li>
+                            <li><Link to="/contact">Contact</Link></li>
                         </ul>
                     </div>
                     <div className='w-full leading-8'>
                         <h4 className='font-bold text-lg text-slate-700 dark:text-white'>Category</h4>
                         <ul className='mt-3 text-slate-600 dark:text-gray-400'>
-                            <li><a href="/lifestyle">LifeStyle</a></li>
-                            <li><a href="/technology">Technology</a></li>
-                            <li><a href="/travel">Travel</a></li>
-                            <li><a href="/business">Business</a></li>
-                            <li><a href="/economy">Economy</a></li>
-                            <li><a href="/sports">Sports</a></li>
+                            <li><Link to="/lifestyle">LifeStyle</Link></li>
+                            <li><Link to="/technology">Technology</Link></li>
+                            <li><Link to="/travel">Travel</Link></li>
+                            <li><Link to="/business">Business</Link></li>
+                            <li><Link to="/economy">Economy</Link></li>
+                            <li><Link to="/sports">Sports</Link></li>
                         </ul>
                     </div>
 
@@ -79,9 +80,9 @@ const Footer = () => {
 
                 <div className='box-border'>
                     <ul className='flex justify-between'>
-                        <li className='px-6 border-r-1 border-slate-300'><a href="/tou">Terms of Use</a></li>
-                        <li className='px-6 border-r-1 border-slate-300'><a href="/pp">Privary Policy</a></li>
-                        <li className='px-6'><a href="/cp">Cookie Policy</a></li>
+                        <li className='px-6 border-r-1 border-slate-300'><Link to="/tou">Terms of Use</Link></li>
+                        <li className='px-6 border-r-1 border-slate-300'><Link to="/pp">Privary Policy</Link></li>
+                        <li className='px-6'><Link to="/cp">Cookie Policy</Link></li>
                     </ul>
                 </div>
             </div>
