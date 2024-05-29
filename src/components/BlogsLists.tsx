@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { Post } from "../contexts/AppContext";
 import BlogPost from "./BlogPost";
+import Technology from '../images/technology.jpg';
 
 type BlogsListsProps = {
     posts: Post[]
@@ -12,7 +13,7 @@ const BlogsLists = ({ posts }: BlogsListsProps) => {
             { posts.map (post => (
                 <Link to={`/blog/${post.title}/${post.id}`} key={post.id}>
                     <BlogPost
-                        image={post.image} 
+                        image={Technology} 
                         category={post.category}   
                         title={post.title}
                         date_published={post.date_published}

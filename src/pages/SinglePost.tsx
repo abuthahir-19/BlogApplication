@@ -5,13 +5,13 @@ import { useEffect, useState } from "react";
 import { Post } from "../contexts/AppContext";
 import { FaUserCircle } from 'react-icons/fa';
 import { getDateInfo } from "../lib/getDate";
+import Technology from '../images/technology.jpg';
 
 const SinglePost = () => {
     const { id } = useParams();
     const [currBlog, setCurrBlog] = useState<Post | undefined>(undefined);
 
     useEffect(() => {
-        ;
         const posts: Post[] = JSON.parse(localStorage.getItem('posts') as string);
         setCurrBlog(posts.find(post => post.id + "" === (id as string)))
 
@@ -27,7 +27,7 @@ const SinglePost = () => {
                     <p className="bg-blue-500 px-[10px] py-[3px] inline-block text-white rounded-md font-medium text-medium mt-4">{currBlog?.category.title}</p>
                     <h1 className="text-4xl font-bold text-slate-800 mt-4 dark:text-white">{currBlog?.title}</h1>
                     <div className="flex justify-between items-center py-3 w-[45%] mt-4">
-                        <Link to={`/author/${currBlog?.author.name}`}>
+                        <Link to={`/author/${currBlog?.author.id}/${currBlog?.author.name}`}>
                             <div className="flex justify-between items-center">
                                 {currBlog?.author.profile ? (
                                     <img className="w-9 h-9 mr-2" src={currBlog.author.profile} alt="Author Profile" />
@@ -41,7 +41,7 @@ const SinglePost = () => {
                     </div>
 
                     <img
-                        src={currBlog?.image}
+                        src={ Technology }
                         alt="Blog Background"
                         className="mt-4 rounded-xl w-full bg-center"
                     />

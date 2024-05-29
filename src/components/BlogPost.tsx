@@ -3,9 +3,16 @@ import { Category } from "../contexts/AppContext";
 import { getDateInfo } from "../lib/getDate";
 import { FaUserCircle } from 'react-icons/fa';
 
-type Author = {
+export type Author = {
+    id: number;
+    role: string;
     name: string;
     profile: string;
+    about_me: string;
+    linkedin: string;
+    instagram: string;
+    twitter: string;
+    youtube: string;
 }
 
 type BlogPostProps = {
@@ -28,7 +35,7 @@ const BlogPost = ({ image, category, title, date_published, author }: BlogPostPr
                 </div>
                 <h4 className="text-xl font-bold text-slate-700 py-3 dark:text-white">{title}</h4>
                 <div className="flex justify-between items-center py-3">
-                    <Link to={`/author/${author.name}`}>
+                    <Link to={`/author/${author.id}/${author.name}`}>
                         <div className="flex justify-between items-center">
                             {author.profile ? (
                                 <img className="w-9 h-9 mr-2" src={author.profile} alt="Author Profile" />

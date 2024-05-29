@@ -9,7 +9,7 @@ function App() {
         <Routes>
             <Route path="/" element={<HomePage />} />
             <Route path={`/blog/:title/:id`} element={<SinglePost />} />
-            <Route path={`/author/:authorname`} element={<AuthorPage />} />
+            <Route path={`/author/:authorID/:authorName`} element={<AuthorPage />} />
         </Routes>
     );
 }

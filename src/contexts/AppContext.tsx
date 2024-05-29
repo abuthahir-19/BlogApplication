@@ -11,9 +11,16 @@ export type Post = {
     id: number;
     category: Category;
     author: {
+        id: number;
+        role: string;
         name: string;
         profile: string;
-    }
+        about_me: string;
+        linkedin: string;
+        instagram: string;
+        twitter: string;
+        youtube: string;
+    };
     title: string;
     body: string;
     excerpt: string;
