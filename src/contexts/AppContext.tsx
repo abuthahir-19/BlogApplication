@@ -45,6 +45,8 @@ type AppContextType = {
     changeTheme: () => void;
     posts: Post[];
     setPosts: React.Dispatch<React.SetStateAction<Post[]>>
+    isNavOpen: boolean;
+    ToggleNav: () => void;
 }
 
 export const AppContext = createContext<AppContextType | null> (null);
@@ -52,17 +54,24 @@ export const AppContext = createContext<AppContextType | null> (null);
 const AppContextProvider = ({ children }: AppContextProps) => {
     const [isDarkMode, setIsDarkMode] = useState (false);
     const [posts, setPosts] = useState<Post[]>([]);
+    const [isNavOpen, setIsNavOpen] = useState (false);
 
     const changeTheme = () => {
         setIsDarkMode (prevState => !prevState);
         // console.log (isDarkMode);
     }
+
+    const ToggleNav = () => {
+        setIsNavOpen (prevState => !prevState);
+    };
     
     const contextValue: AppContextType = {
         isDarkMode,
         changeTheme,
         posts,
         setPosts,
+        isNavOpen,
+        ToggleNav
     }
 
     return (
