@@ -6,6 +6,7 @@ import { ChangeIcon } from './ChangeIcon';
 import { useTheme } from '../hooks/useTheme';
 import { useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import { GiHamburgerMenu } from 'react-icons/gi'
 
 const Navbar = () => {
     const { isDarkMode, changeTheme } = useTheme();
@@ -17,20 +18,20 @@ const Navbar = () => {
             document.documentElement.classList.remove ("dark");
         }
     }, [isDarkMode]);
-
+    
     return (
         <section className='flex justify-between items-center mx-auto px-3 py-6 w-full'>
             <Link to="/">
                 <img
                     src={ isDarkMode ? AppLogoDark : AppLogoLight }
                     alt='Something sample'
-                    width={130}
-                    height={130}
+                    width={120}
+                    height={120}
                 />
             </Link>
 
             <nav>
-                <ul className='flex text-lg font-normal'>
+                <ul className='flex text-lg font-normal x-ultra-xs:hidden ultra-xs:hidden xxs:hidden xs:hidden sm:hidden md:hidden'>
                     <li className='px-4 py-1'><Link to="/">Home</Link></li>
                     <li className='px-4 py-1'><Link to="/blog">Blog</Link></li>
                     <li className='px-4 py-1'><Link to="/single-post">Single Post</Link></li>
@@ -39,7 +40,7 @@ const Navbar = () => {
                 </ul>
             </nav>
 
-            <div className='flex items-center justify-between w-[30%]'>
+            <div className='flex items-center justify-between x-ultra-xs:hidden ultra-xs:hidden xxs:hidden xs:hidden sm:hidden'>
                 <div className='flex justify-between items-center px-3 bg-slate-100 dark:bg-gray-800 rounded-md'>
                     <input
                         className='bg-slate-100 dark:bg-gray-800 outline-none bg-none py-2 px-3'
@@ -55,7 +56,11 @@ const Navbar = () => {
                     color='primary'
                     thumbIcon={ChangeIcon}
                     onClick={changeTheme}
+                    className="ml-3"
                 />
+            </div>
+            <div className='hidden x-ultra-xs:inline-block ultra-xs:inline-block xxs:inline-block xs:inline-block sm:inline-block md:inline-block'>
+            <GiHamburgerMenu />
             </div>
         </section>
     )
