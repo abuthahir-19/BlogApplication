@@ -14,6 +14,9 @@ const HomePage = () => {
             try {
                 const response = await axios.get ('http://localhost:3500/latest-posts');
                 const data = response.data;
+                // const response = await axios.request (options);
+                // const data = response.data.results;
+                // console.log (data);
                 setPosts (data);
                 localStorage.setItem ('posts', JSON.stringify (data));
             } catch (err) {

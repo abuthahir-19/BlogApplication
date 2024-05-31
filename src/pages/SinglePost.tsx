@@ -5,7 +5,6 @@ import { useEffect, useState } from "react";
 import { Post } from "../contexts/AppContext";
 import { FaUserCircle } from 'react-icons/fa';
 import { getDateInfo } from "../lib/getDate";
-import Technology from '../images/technology.jpg';
 
 const SinglePost = () => {
     const { id } = useParams();
@@ -41,7 +40,7 @@ const SinglePost = () => {
                     </div>
 
                     <img
-                        src={ Technology }
+                        src={ currBlog?.image }
                         alt="Blog Background"
                         className="mt-4 rounded-xl w-full bg-center"
                     />
