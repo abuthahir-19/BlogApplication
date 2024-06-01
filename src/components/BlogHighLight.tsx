@@ -3,7 +3,7 @@ import { FaUserCircle } from 'react-icons/fa';
 
 const BlogHighLight = () => {
     return (
-        <section className="relative top-13 w-[85%] mx-auto box-border my-7">
+        <section className="relative top-13 x-ultra-xs:w-[85%] ultra-xs:w-[85%] xxs:w-[85%] xs:w-[85%] sm:w-[85%] mx-auto box-border my-7">
             <img 
                 src={BlogHighLightImg} 
                 alt="This is trending topic today !"

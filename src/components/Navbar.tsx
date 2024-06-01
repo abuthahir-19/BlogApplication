@@ -20,7 +20,7 @@ const Navbar = () => {
     }, [isDarkMode]);
     
     return (
-        <section className='flex justify-between items-center mx-auto px-3 py-6 w-[85%] mx-auto'>
+        <section className='flex justify-between items-center mx-auto px-3 py-6 x-ultra-xs:w-[85%] ultra-xs:w-[85%] xxs:w-[85%] xs:w-[85%] sm:w-[85%]'>
             <Link to="/">
                 <img
                     src={ isDarkMode ? AppLogoDark : AppLogoLight }
