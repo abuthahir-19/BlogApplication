@@ -5,7 +5,7 @@ import { ChangeIcon } from "./ChangeIcon";
 import { useTheme } from "../hooks/useTheme";
 
 const ResponsiveNav = () => {
-    const { isNavOpen, isDarkMode, changeTheme } = useTheme();
+    const { isNavOpen, changeTheme } = useTheme();
 
     return (
         <div className={`bg-white dark:bg-gray-900 w-full top-13 z-10 ${ isNavOpen ? 'visible' : 'hidden' } lg:hidden xl:hidden 2xl:hidden`}>
