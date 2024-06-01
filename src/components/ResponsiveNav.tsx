@@ -5,10 +5,10 @@ import { ChangeIcon } from "./ChangeIcon";
 import { useTheme } from "../hooks/useTheme";
 
 const ResponsiveNav = () => {
-    const { isDarkMode, changeTheme } = useTheme();
+    const { isNavOpen, isDarkMode, changeTheme } = useTheme();
 
     return (
-        <div className="bg-white dark:bg-gray-900 w-full top-13 z-10">
+        <div className={`bg-white dark:bg-gray-900 w-full top-13 z-10 ${ isNavOpen ? 'visible' : 'hidden' } lg:hidden xl:hidden 2xl:hidden`}>
             <div className="flex flex-col">
                 <nav>
                     <ul className='flex flex-col text-center text-lg font-normal'>
@@ -20,7 +20,7 @@ const ResponsiveNav = () => {
                     </ul>
                 </nav>
 
-                <div className='flex justify-between items-center px-3 my-3 bg-slate-100 dark:bg-gray-800 rounded-md w-1/4 mx-auto'>
+                <div className='flex justify-between items-center px-3 my-3 bg-slate-100 dark:bg-gray-800 rounded-md mx-auto md:hidden lg:hidden xl:hidden 2xl:hidden'>
                     <input
                         className='bg-slate-100 dark:bg-gray-800 outline-none bg-none py-2 px-3'
                         type="text"
@@ -35,7 +35,7 @@ const ResponsiveNav = () => {
                     color='primary'
                     thumbIcon={ChangeIcon}
                     onClick={changeTheme}
-                    className="mx-auto my-3"
+                    className="mx-auto my-3 md:hidden lg:hidden xl:hidden 2xl:hidden"
                 />
             </div>
         </div>
