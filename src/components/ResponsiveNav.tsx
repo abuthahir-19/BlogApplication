@@ -8,7 +8,7 @@ const ResponsiveNav = () => {
     const { isNavOpen, changeTheme } = useTheme();
 
     return (
-        <div className={`bg-white dark:bg-gray-900 w-full top-13 z-10 ${ isNavOpen ? 'visible' : 'hidden' } lg:hidden xl:hidden 2xl:hidden`}>
+        <div className={`absolute bg-white dark:bg-gray-900 w-full top-13 z-10 ${ isNavOpen ? 'visible' : 'hidden' } lg:hidden xl:hidden 2xl:hidden`}>
             <div className="flex flex-col">
                 <nav>
                     <ul className='flex flex-col text-center text-lg font-normal'>
