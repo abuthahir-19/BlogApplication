@@ -9,7 +9,7 @@ import { Link } from 'react-router-dom';
 import { GiHamburgerMenu } from 'react-icons/gi'
 
 const Navbar = () => {
-    const { isDarkMode, changeTheme } = useTheme();
+    const { isDarkMode, changeTheme, ToggleNav } = useTheme();
 
     useEffect (() => {
         if (isDarkMode === true) {
@@ -60,7 +60,7 @@ const Navbar = () => {
                 />
             </div>
             <div className='hidden x-ultra-xs:inline-block ultra-xs:inline-block xxs:inline-block xs:inline-block sm:inline-block md:inline-block'>
-            <GiHamburgerMenu />
+                <GiHamburgerMenu onClick={ToggleNav} />
             </div>
         </section>
     )
