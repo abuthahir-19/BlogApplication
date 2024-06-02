@@ -8,7 +8,7 @@ type BlogsListsProps = {
 
 const BlogsLists = ({ posts }: BlogsListsProps) => {
     return (
-        <div className="flex flex-row flex-wrap justify-evenly my-5 gap-6 w-full">
+        <div className="flex flex-row flex-wrap justify-center my-5 gap-6 w-full">
             { posts.map (post => (
                 <Link to={`/blog/${post.title}/${post.id}`} key={post.id}>
                     <BlogPost

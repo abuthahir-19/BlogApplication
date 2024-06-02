@@ -36,7 +36,7 @@ const HomePage = () => {
                 <Navbar />
                 <ResponsiveNav />
                 <BlogHighLight />
-                <p className='font-bold text-2xl mt-4 text-slate-700 py-5 px-3 mx-auto dark:text-white'>Latest Posts</p>
+                <p className='font-bold text-2xl mt-4 text-slate-700 py-5 px-3 mx-auto dark:text-white md:w-[85%] xs:w-[85%]'>Latest Posts</p>
                 <BlogsLists posts={posts} />
             </div>
             <Footer />
