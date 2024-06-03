@@ -63,7 +63,7 @@ const AppContextProvider = ({ children }: AppContextProps) => {
 
     const ToggleNav = () => {
         setIsNavOpen (prevState => !prevState);
-        console.log (isNavOpen);
+        // console.log (isNavOpen);
     };
     
     const contextValue: AppContextType = {
