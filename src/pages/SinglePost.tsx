@@ -5,7 +5,6 @@ import { useEffect, useState } from "react";
 import { Post } from "../contexts/AppContext";
 import { FaUserCircle } from 'react-icons/fa';
 import { getDateInfo } from "../lib/getDate";
-import Technology from '../images/technology.jpg';
 import { useTheme } from "../hooks/useTheme";
 import ResponsiveNav from "../components/ResponsiveNav";
 
@@ -54,15 +53,21 @@ const SinglePost = () => {
                     </div>
 
                     <img
-                        src={ Technology }
+                        src={ currBlog?.image }
                         alt="Blog Background"
                         className="mt-4 rounded-xl w-full bg-center"
                     />
 
                     <p className="text-xl x-ultra-xs:text-lg ultra-xs:text-lg mt-8 leading-[38px]">{currBlog?.body}</p>
+                    <img 
+                        src={ currBlog?.category.categoryImage }
+                        alt="Category" 
+                        className="mt-4 rounded-xl w-full bg-center"
+                    />
                     <div id="excerpt" className="p-5 mt-6 rounded-xl bg-slate-100 shadow-white dark:bg-gray-800">
                         <p className="italic text-xl x-ultra-xs:text-lg ultra-xs:text-lg leading-[38px]">{` "${currBlog?.excerpt}" `}</p>
                     </div>
+                                
                 </section>
             </div>
             <Footer />
