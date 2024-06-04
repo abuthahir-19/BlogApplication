@@ -6,8 +6,8 @@ const Footer = () => {
    
     return (
         <section className="relative mt-24 pt-12 bg-slate-100 dark:bg-gray-950">
-            <div className="flex justify-between sm:justify-center md:justify-center gap-5 w-[85%] mx-auto x-ultra-xs:flex-wrap ultra-xs:flex-wrap xxs:flex-wrap xs:flex-wrap sm:flex-wrap md:flex-wrap">
-                <div className='w-1/3 pr-24 x-ultra-xs:pr-0 x-ultra-xs:w-full ultra-xs:pr-0 ultra-xs:w-full xxs:pr-0 xxs:w-full xs:pr-0 xs:w-full sm:w-full md:w-full'>
+            <div className="flex justify-between sm:justify-center md:grid md:grid-rows-2 md:grid-cols-4 gap-5 w-[85%] mx-auto x-ultra-xs:flex-wrap ultra-xs:flex-wrap xxs:flex-wrap xs:flex-wrap sm:flex-wrap">
+                <div className='w-1/3 pr-24 x-ultra-xs:pr-0 x-ultra-xs:w-full ultra-xs:pr-0 ultra-xs:w-full xxs:pr-0 xxs:w-full xs:pr-0 xs:w-full sm:w-full md:w-full md:col-span-4'>
                     <div className='w-full'>
                         <h4 className='font-bold text-lg text-slate-700 dark:text-white'>About</h4>
                         <p className='mt-3 text-base text-slate-600 dark:text-gray-400'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est, eum aliquid soluta numquam quo sapiente vitae reiciendis aperiam quaerat, explicabo facilis! Inventore hic eligendi cumque totam officia corporis voluptas deleniti.</p>
@@ -19,7 +19,7 @@ const Footer = () => {
                     </div>
                 </div>
 
-                <div className='flex w-1/3 x-ultra-xs:w-full ultra-xs:w-full xxs:w-full xs:w-full sm:w-full md:w-full'>
+                <div className='flex w-1/3 x-ultra-xs:w-full ultra-xs:w-full xxs:w-full xs:w-full sm:w-full md:w-full  md:col-span-2'>
                     <div className='w-full leading-8'>
                         <h4 className='font-bold text-lg text-slate-700 dark:text-white'>Quick Link</h4>
                         <ul className='mt-3 text-slate-600 dark:text-gray-400'>
