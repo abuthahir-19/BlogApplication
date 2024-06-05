@@ -8,15 +8,15 @@ const ResponsiveNav = () => {
     const { isNavOpen, changeTheme } = useTheme();
 
     return (
-        <div className={`relative p-3 bg-white dark:bg-gray-900 w-full h-screen top-13 z-10 ${ isNavOpen ? 'visible' : 'hidden' } lg:hidden xl:hidden 2xl:hidden`}>
+        <div className={`absolute p-3 bg-white left-0 dark:bg-gray-900 w-full h-[100vh] top-13 z-10 ${ isNavOpen ? 'visible' : 'hidden' } lg:hidden xl:hidden 2xl:hidden`}>
             <div className="flex flex-col">
                 <nav>
                     <ul className='flex flex-col text-center text-lg font-normal'>
                         <li className='py-4'><Link to="/">Home</Link></li>
-                        <li className='py-4'><Link to="/blog">Blog</Link></li>
-                        <li className='py-4'><Link to="/single-post">Single Post</Link></li>
-                        <li className='py-4'><Link to="/pages">Pages</Link></li>
-                        <li className='py-4'><Link to="/contact">contact</Link></li>
+                        <li className='py-4'><Link to="/">Blog</Link></li>
+                        <li className='py-4'><Link to="/">Single Post</Link></li>
+                        <li className='py-4'><Link to="/">Pages</Link></li>
+                        <li className='py-4'><Link to="/">contact</Link></li>
                     </ul>
                 </nav>
 

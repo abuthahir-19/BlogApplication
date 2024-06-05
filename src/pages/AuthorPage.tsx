@@ -8,6 +8,7 @@ import AuthorDetails from "../components/AuthorDetails";
 import BlogsLists from "../components/BlogsLists";
 import { useTheme } from "../hooks/useTheme";
 import axios from "axios";
+import ResponsiveNav from "../components/ResponsiveNav";
 
 const AuthorPage = () => {
     const { authorID } = useParams();
@@ -43,6 +44,7 @@ const AuthorPage = () => {
         <section className="dark:bg-slate-900">
             <div className="w-[85%] mx-auto">
                 <Navbar />
+                <ResponsiveNav />
                 <AuthorDetails author={author} />
                 <BlogsLists posts={posts} />
             </div>

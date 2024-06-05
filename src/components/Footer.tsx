@@ -24,22 +24,22 @@ const Footer = () => {
                         <h4 className='font-bold text-lg text-slate-700 dark:text-white'>Quick Link</h4>
                         <ul className='mt-3 text-slate-600 dark:text-gray-400'>
                             <li><Link to="/">Home</Link></li>
-                            <li><Link to="/about">About</Link></li>
-                            <li><Link to="/blog">Blog</Link></li>
-                            <li><Link to="/achived">Archived</Link></li>
-                            <li><Link to="/author">Author</Link></li>
-                            <li><Link to="/contact">Contact</Link></li>
+                            <li><Link to="/">About</Link></li>
+                            <li><Link to="/">Blog</Link></li>
+                            <li><Link to="/">Archived</Link></li>
+                            <li><Link to="/">Author</Link></li>
+                            <li><Link to="/">Contact</Link></li>
                         </ul>
                     </div>
                     <div className='w-full leading-8'>
                         <h4 className='font-bold text-lg text-slate-700 dark:text-white'>Category</h4>
                         <ul className='mt-3 text-slate-600 dark:text-gray-400'>
-                            <li><Link to="/lifestyle">LifeStyle</Link></li>
-                            <li><Link to="/technology">Technology</Link></li>
-                            <li><Link to="/travel">Travel</Link></li>
-                            <li><Link to="/business">Business</Link></li>
-                            <li><Link to="/economy">Economy</Link></li>
-                            <li><Link to="/sports">Sports</Link></li>
+                            <li><Link to="/">LifeStyle</Link></li>
+                            <li><Link to="/">Technology</Link></li>
+                            <li><Link to="/">Travel</Link></li>
+                            <li><Link to="/">Business</Link></li>
+                            <li><Link to="/">Economy</Link></li>
+                            <li><Link to="/">Sports</Link></li>
                         </ul>
                     </div>
 

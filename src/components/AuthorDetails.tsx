@@ -9,8 +9,8 @@ type AuthorDetailsProps = {
 
 const AuthorDetails = ({ author }: AuthorDetailsProps) => {
     return (
-        <div className="bg-slate-100 p-9 dark:bg-slate-800 rounded-lg mt-4">
-            <div className="flex justify-center items-center w-1/3 mx-auto">
+        <div className="bg-slate-100 py-6 px-3 dark:bg-slate-800 rounded-lg mt-4">
+            <div className="flex justify-center items-center w-full mx-auto">
                 <div className="w-14 h-14 mr-2">
                     {author?.profile ? (
                         <img className="mr-2" src={author.profile} alt="Author Profile" />
@@ -23,11 +23,11 @@ const AuthorDetails = ({ author }: AuthorDetailsProps) => {
                     <p className="text-slate-600 dark:text-slate-400">{author?.role}</p>
                 </div>
             </div>
-            <div className="w-3/4 mx-auto text-center p-2 mt-3 text-slate-600 dark:text-slate-400">
+            <div className="w-full lg:w-4/5 xl:w-4/5 2xl:w-4/5 mx-auto text-center p-2 mt-3 text-slate-600 dark:text-slate-400">
                 {author?.about_me}
             </div>
 
-            <div className="flex justify-evenly items-center w-1/5 mt-4 mx-auto">
+            <div className="flex justify-evenly items-center w-full md:w-3/4 lg:w-1/4 xl:w-1/4 2xl:w-1/4 mt-4 mx-auto">
                 <Link to={`${author?.linkedin}`}>
                     <IconRender Icon={FaFacebook} />
                 </Link>

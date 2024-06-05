@@ -10,6 +10,11 @@
     font-style: normal;
 }
 
+.no-scroll {
+    overflow: hidden;
+}
+
+
 .experpt {
     box-shadow: -5px 0px #b3b2b2;
     font-family: "Source Serif 4", serif;

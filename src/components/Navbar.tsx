@@ -33,10 +33,10 @@ const Navbar = () => {
             <nav>
                 <ul className='flex text-lg font-normal x-ultra-xs:hidden ultra-xs:hidden xxs:hidden xs:hidden sm:hidden md:hidden'>
                     <li className='px-4 py-1'><Link to="/">Home</Link></li>
-                    <li className='px-4 py-1'><Link to="/blog">Blog</Link></li>
-                    <li className='px-4 py-1'><Link to="/single-post">Single Post</Link></li>
-                    <li className='px-4 py-1'><Link to="/pages">Pages</Link></li>
-                    <li className='px-4 py-1'><Link to="/contact">contact</Link></li>
+                    <li className='px-4 py-1'><Link to="/">Blog</Link></li>
+                    <li className='px-4 py-1'><Link to="/">Single Post</Link></li>
+                    <li className='px-4 py-1'><Link to="/">Pages</Link></li>
+                    <li className='px-4 py-1'><Link to="/">contact</Link></li>
                 </ul>
             </nav>
 
