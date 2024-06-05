@@ -7,7 +7,6 @@ import { FaUserCircle } from 'react-icons/fa';
 import { getDateInfo } from "../lib/getDate";
 import { useTheme } from "../hooks/useTheme";
 import ResponsiveNav from "../components/ResponsiveNav";
-import Technology from '../images/technology.jpg';
 
 const SinglePost = () => {
     const { id } = useParams();
@@ -54,14 +53,14 @@ const SinglePost = () => {
                     </div>
 
                     <img
-                        src={ Technology }
+                        src={ currBlog?.image }
                         alt="Blog Background"
                         className="mt-4 rounded-xl w-full bg-center"
                     />
 
                     <p className="text-xl x-ultra-xs:text-lg ultra-xs:text-lg xxs:text-lg mt-8 leading-[38px]">{currBlog?.body}</p>
                     <img 
-                        src={ Technology }
+                        src={ currBlog?.category.categoryImage }
                         alt="Category" 
                         className="mt-4 rounded-xl w-full bg-center"
                     />

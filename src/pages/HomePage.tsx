@@ -8,7 +8,7 @@ import axios from "axios";
 import ResponsiveNav from "../components/ResponsiveNav";
 
 const HomePage = () => {
-    const { posts, isNavOpen, setPosts } = useTheme();
+    const { posts, setPosts } = useTheme();
 
     useEffect (() => {
         const fetchPosts = async () => {
@@ -31,7 +31,7 @@ const HomePage = () => {
     }, [posts, setPosts]);
 
     return (
-        <main id="home-main" className={`dark:bg-gray-900 ${isNavOpen ? 'overflow-y-hidden' : 'overflow-y-scroll'}`}>
+        <main className={`dark:bg-gray-900`}>
             <div className="w-[85%] mx-auto relative x-ultra-xs:w-full ultra-xs:w-full xxs:w-full xs:w-full sm:w-full">
                 <Navbar />
                 <ResponsiveNav />
