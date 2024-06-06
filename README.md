@@ -21,4 +21,3 @@ This is my very first front-end project using TypeScript through this project I 
 |    Rapid API      |
 |     Next UI       |
 |   JSON-SERVER     |
-|-------------------|
