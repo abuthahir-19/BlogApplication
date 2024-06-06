@@ -13,8 +13,8 @@ const HomePage = () => {
     useEffect (() => {
         const fetchPosts = async () => {
             try {
-                const response = await axios.get ('http://localhost:3500/latest-posts');
-                const data = response.data;
+                const response = await axios.get ('https://abuthahir-19.github.io/BlogsAPI/latest-posts.json');
+                const data = response.data['latest-posts'];
                 // const response = await axios.request (options);
                 // const data = response.data.results;
                 // console.log (data);
@@ -28,7 +28,7 @@ const HomePage = () => {
         fetchPosts();
 
 
-    }, [posts, setPosts]);
+    }, []);
 
     return (
         <main className={`dark:bg-gray-900`}>
