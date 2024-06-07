@@ -21,3 +21,7 @@ This is a simple Blog application and also my very first front-end project using
 |    Rapid API      |
 |     Next UI       |
 |   JSON-SERVER     |
+
+# Start Accessing the application
+
+To visit the live project click on the link over here [MetaBlog](https://metablog-94a3f.firebaseapp.com/)
