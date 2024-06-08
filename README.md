@@ -22,8 +22,8 @@ This is a simple Blog application and also my very first front-end project using
 |     Next UI       |
 |   JSON-SERVER     |
 
-[!Note]
-This project is still under development
+> [!Note]
+> This project is still under development
 
 # Start Accessing the application
 
