@@ -16,6 +16,7 @@ const SinglePost = () => {
     useEffect(() => {
         const posts: Post[] = JSON.parse(localStorage.getItem('posts') as string);
         setCurrBlog(posts.find(post => post.id + "" === (id as string)))
+        window.scrollTo (0, 0);
         // eslint-disable-next-line react-hooks/exhaustive-deps
     }, []);
 
