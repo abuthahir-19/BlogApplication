@@ -22,6 +22,9 @@ This is a simple Blog application and also my very first front-end project using
 |     Next UI       |
 |   JSON-SERVER     |
 
+[!Note]
+This project is still under development
+
 # Start Accessing the application
 
 To visit the live project click on the link over here [MetaBlog](https://metablog-94a3f.firebaseapp.com/)
