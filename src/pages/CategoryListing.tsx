@@ -9,7 +9,7 @@ import axios from "axios";
 const CategoryListing = () => {
     const [CategoryPosts, setCategoryPosts] = useState ([]);
 
-    let { categoryID, categoryName } = useParams();
+    let { categoryName } = useParams();
     categoryName = categoryName?.toLowerCase();
     let spacecheck = categoryName?.split(' ');
     if (spacecheck?.length! > 1) {
