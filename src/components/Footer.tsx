@@ -34,12 +34,12 @@ const Footer = () => {
                     <div className='w-full leading-8'>
                         <h4 className='font-bold text-lg text-slate-700 dark:text-white'>Category</h4>
                         <ul className='mt-3 text-slate-600 dark:text-gray-400'>
-                            <li><Link to="/">LifeStyle</Link></li>
-                            <li><Link to="/">Technology</Link></li>
-                            <li><Link to="/">Travel</Link></li>
-                            <li><Link to="/">Business</Link></li>
-                            <li><Link to="/">Economy</Link></li>
-                            <li><Link to="/">Sports</Link></li>
+                            <li><Link to={`/page/category/5/lifestyle`}>LifeStyle</Link></li>
+                            <li><Link to={`/page/category/6/luxury`}>Luxury</Link></li>
+                            <li><Link to={`/page/category/7/psychology`}>Psychology</Link></li>
+                            <li><Link to={`/page/category/1/education`}>Education</Link></li>
+                            <li><Link to={`/page/category/9/technology`}>Technology</Link></li>
+                            <li><Link to={`/page/category/2/fitness`}>Fitness</Link></li>
                         </ul>
                     </div>
 

@@ -25,6 +25,10 @@ const AuthorPage = () => {
     }, [authorID]);
 
     useEffect (() => {
+        window.scrollTo (0, 0);
+    })
+
+    useEffect (() => {
         const fetchPosts = async () => {
             try {
                 const response = await axios.get ('http://localhost:3500/latest-posts');

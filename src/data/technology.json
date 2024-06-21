@@ -1,0 +1,38 @@
+{
+    "technology": [
+        {
+            "id": 21,
+            "category": {
+                "id": 9,
+                "title": "Technology",
+                "categoryDesc": "Evergreen technology blogs.",
+                "categoryImage": "https://s3.us-west-004.backblazeb2.com/encurate/static/blogsapi/1/Technology-technology.png"
+            },
+            "author": {
+                "id": 30,
+                "role": "Memoirist",
+                "name": "Sophia Martinez",
+                "profile": "/images/circleProfiles/cropped_image_25.png",
+                "about_me": "Sophia Martinez's memoirs offer an intimate look into her life and experiences. Her candid and reflective writing style resonates deeply with readers.",
+                "linkedin": "https://linkedin.com/in/sophiamartinez",
+                "instagram": "https://instagram.com/sophiamartinez",
+                "twitter": "https://twitter.com/sophiamartinez",
+                "youtube": "https://youtube.com/sophiamartinez"
+            },
+            "title": "7 apps for cataloging your home library",
+            "body": "It is a wise idea to catalog your home library, however, you might get stuck as to which app will enable you achieve this aim of yours graciously. Because of this, we have gathered seven apps that will help you a lot in terms of organizing your books and other collections. Below are seven apps for cataloging your home library.\r\n\r\n1.Libib\r\nThis is a wonderful app that allows you to organize your books (even music, movies and other media) through tagging. You can make notes about borrowing with the built-in annotation features of this app. This app basically has limitless size, having space for up to 100,000 items. There are other handy tools of this app; tools that make it possible for you to take measurement of how much you have read. Another wonderful feature of this app is that you can review items in your library and also make the reviews public. Libib is free and can be used for both iOS and android platforms. It can also be accessed via web.\r\n\r\n2.iBookshelf   \r\nYou will love this app because it comes with preinstalled borrowing status for every item. It has a barcode scanning feature that makes it easy to use, and this app automatically calls up available info of every book by the ISBN entered. This app isn’t free, but it’s cheap. It costs just $1.99 and is available only for iPhone and iPad users.\r\n\r\n3.Libri \r\nAn ideal app for cataloguing, Libri allows you to enter simple info about every single item such as author, ISBN, publisher, year, title, and simple annotation. Although this app has few features, it is nevertheless an easy to learn app. This app, just like iBookshelf costs $1.99 and is open for iPhone, iPad and iPad touch users.\r\n\r\n4.My library\r\nWith this app, you can input information via barcode scanning or ISBN. In addition, this app has cataloguing features that allows you to catalog any kind of media you have, not only books. There are other fascinating features of this app, and some of such features are allowing you to rate items, handling up to 8,000 items at a time, and streamlined backup options. This app is available for iPhone, iPad and iPad touch. It is sold for $3.99.\r\n\r\n5.Book crawler\r\nUsers can make use of ISBN or barcode scanning with this app that generates associated information for each item such as reviews and titles. This app has the ability to export to DropBox for easy backup. As the highest-rated book database app in iTunes, this app costs $1.99 and is usable on iPhone, iPad, iPad touch and Mac desktop.\r\n6.Home library\r\nHome library is unique as it doesn’t just let you catalogue and track loan status of each item in your library, it also makes it possible for you to send polite reminders to your friends who are still with the books they borrowed from you. With this app, it is easy for you to track easily books that you’ve checked out from the library, and before they are due, it sends you reminders. With this, you can say goodbye to late fees. This app also accommodates wish list and works for iPad, iPad touch, iPhone, Mac OS X and Android devices. It cost $2.99.\r\n\r\n7.iCollect books pro\r\nThis app is well known for its barcode scanning or manual UPCISBN entry, genre sorting, tacking loans and lots more. It costs $2.99 and can be used on iPhone, iPad and iPad touch.\r\nThese are 7 apps for cataloguing your home library. Which cataloguing app do you use that isn’t listed here?",
+            "excerpt": "It is a wise idea to catalog your home library, however, you might get stuck as to which app will enable you achieve this aim of yours graciously.",
+            "tags": "library,home,apps",
+            "contentSourceName": null,
+            "contentSourceURL": null,
+            "extraImageUrl": null,
+            "extraImageAttribution": null,
+            "imageOwnerName": null,
+            "imageOwnerBacklink": null,
+            "image": "https://s3.us-west-004.backblazeb2.com/encurate/static/blogsapi/2/7_apps_for_cataloging_your_home_library-7_apps_for_cataloging_your_home_library.png",
+            "videoURL": null,
+            "date_published": "2022-08-20T06:43:51.971130Z",
+            "website": null
+        }
+    ]
+}

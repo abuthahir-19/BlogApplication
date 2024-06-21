@@ -1,0 +1,106 @@
+{
+    "education": [
+        {
+            "id": 19,
+            "category": {
+                "id": 1,
+                "title": "Education",
+                "categoryDesc": "Evergreen educational blogs.",
+                "categoryImage": "https://s3.us-west-004.backblazeb2.com/encurate/static/blogsapi/1/Education-Education.png"
+            },
+            "author": {
+                "id": 11,
+                "role": "Historical Fiction Author",
+                "name": "Michael O'Hara",
+                "profile": "/images/circleProfiles/cropped_image_11.png",
+                "about_me": "Michael O'Hara brings history to life with his captivating storytelling and richly detailed narratives. His books often delve into lesser-known historical events and figures, shedding new light on the past.",
+                "linkedin": "https://linkedin.com/in/michaelohara",
+                "instagram": "https://instagram.com/michaelohara",
+                "twitter": "https://twitter.com/michaelohara",
+                "youtube": "https://youtube.com/michaelohara"
+            },
+            "title": "15 tips for PHD students in their first week",
+            "body": "All beginnings are tough, as you have to cope with the challenges faced as a fresher. The beginning of your PhD isn’t an exception. The goal of your first days as a PhD student is to be ready as soon as possible to start your research. This article is to help you coup with your first week during your PhD. Read until the end, as you will find it useful.\r\n\r\n1.Find a coffee mug\r\nThis is necessary because your PhD won’t be relaxed as you thought, because you have to work hard and sometimes only coffee can keep you awake when you are on your computer. You had better be ready now so as to be productive.\r\n\r\n2.Get your desk and chair\r\nThis is necessary as you will spend long hours doing research. You should choose a comfortable chair. This will help you to avoid lower back pain while you do your research.\r\n\r\n3.Do the paper work\r\nMost likely, when you begin your PhD, you will have to give personal and contact details, fill in several forms and give out lots of details about you. It is better you get these ready on time so as to be focused on your PhD.\r\n\r\n4.Have access to university building\r\nSince you will be working in a school environment, it is vital that you have access to it because the building might have some security measures put in place. You are going to work in the weekends also, therefore its better you get permission to be in the building anytime you want to work.\r\n\r\n5.Get a computer\r\nYou will need a PC, so get yours along with you, and if you already don’t have, order for one. Your PC should be connected to the web so as to enable your research run faster. You should also get a printer and other necessary computing items like software, access to shared drives and others.\r\nImportant note! If you will be using your Laptop, get a lock so that it won’t be stolen from you.\r\n\r\n6.Stock office supplies\r\nWhatever you can do to get them, please do because such office supplies as stock post-its, a stapler, highlighters, paperclips, a few pens and some notebooks are useful for your PhD.\r\n\r\n7.Make the secretary your friend\r\nYou might think that your professor is the most powerful person when it comes to your PhD, but you are wrong. The secretary, who controls the professor’s agenda, can help you squeeze an appointment no matter how crowded the agenda is. So make her your friend.\r\n\r\n8.Register to courses\r\nYou need to have a clear vision on the courses available to you, the compulsory ones, the optional ones and the ones that are nice to do. Whatever the case, it is wise to sit with your boss and discuss about the courses that will benefit you the most.\r\n\r\n9.Download papers to read\r\nYou will be reading lots of papers at the beginning of your PhD, so don’t only ask your boss which ones you should read, go get them, plenty books and papers related to your research topic and read. To find papers to read, use Google Scholar, ask your Liberian and also make use of PubMed.\r\n\r\n10.Start a literature review\r\nYou need to start doing literature review, gather papers, read and summarise them then organise your learning. If you engage in proper literature review, the overview of your field will be more accurate and your whole work more easier.\r\n\r\n11.Check previous thesis of your group\r\nThis is important because you can know the type of topics preferred in your group, how a PhD is structured in your faculty, how many papers PhD’s published before graduating and many more.\r\n\r\n12.Craft a research plan\r\nAlthough this might sound awkward to you, still you can give it a try by splitting your PhD into 4-6 blocks, with each one well defined to produce a publication. Make the design to make your initial project easy so as to yield results earlier as this will be a motivating factor for you.\r\n\r\n13.Meet your supervisor/professor\r\nYou need to meet with your professor to ensure that both of you are on the same track and are in agreement on what you will be doing and how you choose to do it.\r\n\r\n14.Meet your new colleagues\r\nMeeting your colleagues is important so that you know what their project is all about and what contributions and help you can offer to each other.\r\n\r\n15.Be social\r\nBeing social will help you a lot. Make friends; invite your colleagues for coffee breaks, lunch, or any social gatherings. This will help you gain more friends and support as your life isn’t restricted to your research alone.",
+            "excerpt": "All beginnings are tough, as you have to cope with the challenges faced as a fresher. The beginning of your PhD isn’t an exception.",
+            "tags": "phd, students",
+            "contentSourceName": null,
+            "contentSourceURL": null,
+            "extraImageUrl": null,
+            "extraImageAttribution": null,
+            "imageOwnerName": null,
+            "imageOwnerBacklink": null,
+            "image": "https://s3.us-west-004.backblazeb2.com/encurate/static/blogsapi/2/15_tips_for_PHD_students_in_their_first_week-15_tips_for_PHD_students_in_thei_zAtTfzu.jpg",
+            "videoURL": null,
+            "date_published": "2022-08-20T06:41:51.301578Z",
+            "website": null
+        },
+        {
+            "id": 17,
+            "category": {
+                "id": 1,
+                "title": "Education",
+                "categoryDesc": "Evergreen educational blogs.",
+                "categoryImage": "https://s3.us-west-004.backblazeb2.com/encurate/static/blogsapi/1/Education-Education.png"
+            },
+            "author": {
+                "id": 12,
+                "role": "Science Fiction Writer",
+                "name": "Lena Schwartz",
+                "profile": "/images/circleProfiles/cropped_image_12.png",
+                "about_me": "Lena Schwartz explores the boundaries of technology and humanity in her thought-provoking science fiction novels. Her work is known for its imaginative settings and complex, morally ambiguous characters.",
+                "linkedin": "https://linkedin.com/in/lenaschwartz",
+                "instagram": "https://instagram.com/lenaschwartz",
+                "twitter": "https://twitter.com/lenaschwartz",
+                "youtube": "https://youtube.com/lenaschwartz"
+            },
+            "title": "10 Universities in the US offering top distance education",
+            "body": "Do you aspire to study in a U.S university from home? If yes, this post is for you. There are many top U.S universities offering distance education, and we will list top 10 U.S universities offering distance learning:\r\n1.Boston university\r\n As a non-profit university in the United States and one of the largest, Boston university has strived to develop a reliable online higher education learning platform. The US based university offers a wide range of online diplomas, graduate programs, some online doctorate program, and undergraduate degree completion program as well as non-credit professional certificates. \r\n\r\n2.University of Florida\r\nThis is a top American university and always ranks among the top 20 best American public universities. University of Florida distance learning boosts of over 300,000 alumni in over 135 countries. It also offers both undergraduate and graduate degrees through online and distance learning in various fields ranging from engineering, agriculture, pharmacy and even business administration degrees.\r\n\r\n3.Arizona state university\r\nArizona state university is a popular U.S based university that offers almost 100 bachelors and masters degrees in different disciplines ranging from social sciences, business, public and medical services. Arizona state university also offers online certificate programs both for graduates and for undergraduates. \r\n\r\n4.University of Wisconsin-Madison\r\nSeveral distance learning courses are offered at this great American based university and these courses are collectively offered by over 25 campuses. At University of Wisconsin-Madison, you are offered a choice of choosing form a wide variety of distance learning courses with several undergraduate programs, masters programs and lots of other non-degree certificate programs. Courses are offered in the fields of communication, management and liberal studies to nursing and political science.\r\n\r\n5.Pennsylvania State University\r\nPennsylvania State University is among the oldest American universities. It began offering correspondence courses in 1892, among the first schools to embark on such. The university started distance education in 1998, and currently is offering more than 100 online education programs, certificates and degrees in business, education, engineering, technology and lots more.\r\n\r\n6.Stanford University\r\nAmong the universities offering distance education online, Stanford University stands out as it offers free lifelong learning lectures and courses. This prestigious university also offers cooperate education fully online, at company work sites, on campus and even through combining methods.\r\n\r\n7.University of California, Berkeley\r\nThis is one of the top universities in the world offering undergraduate education. This university offers online distance education and aspirants can choose from several courses that carry transferable academic credit. The University of California Berkley Extension offers full study programs and certificates in fields like business analysis, advanced biosciences, and marketing.\r\n\r\n8.Northeastern university\r\nA nonprofit institution that became a figurehead in corporative education, this prestigious university has attained a network of over 203,000 alumni worldwide. Recognized by The Carnegie Classification of Institutions of Higher Education as a university with high interdisciplinary research activity, Northeastern University offers a wide variety of field of study with discipline ranging from engineering technology and electronics, accounting and finance, medical and pharmaceutical studies and also legal studies.\r\n\r\n9.Rochester Institute of Technology\r\nA privately run university, this institution is a pioneer in distance education and offers flexible learning openings through a modular approach to curriculums. It offers several graduate and undergraduate degrees, including fixed courses to choose from.\r\n\r\n10.Washington State University\r\nWashington State University is a prominent university founded in 1890. In 2012, it established its online global campus, with the aim of exposing its academic programs to a wider audience. In this school, students can find bachelors, masters and non-degree certificates for both graduates and undergraduates.",
+            "excerpt": "Do you aspire to study in a U.S university from home? If yes, this post is for you. There are many top U.S universities offering distance education, and we will list top 10 U.S universities offering distance learning:",
+            "tags": "distance education,universities",
+            "contentSourceName": null,
+            "contentSourceURL": null,
+            "extraImageUrl": null,
+            "extraImageAttribution": null,
+            "imageOwnerName": null,
+            "imageOwnerBacklink": null,
+            "image": "https://s3.us-west-004.backblazeb2.com/encurate/static/blogsapi/2/10_Universities_in_the_US_offering_top_distance_education-10_Universities_in__nX1Gyjx.jpg",
+            "videoURL": null,
+            "date_published": "2022-08-20T06:39:31.158047Z",
+            "website": null
+        },
+        {
+            "id": 9,
+            "category": {
+                "id": 1,
+                "title": "Education",
+                "categoryDesc": "Evergreen educational blogs.",
+                "categoryImage": "https://s3.us-west-004.backblazeb2.com/encurate/static/blogsapi/1/Education-Education.png"
+            },
+            "author": {
+                "id": 13,
+                "role": "Fantasy Novelist",
+                "name": "Gareth Morgan",
+                "profile": "/images/circleProfiles/cropped_image_13.png",
+                "about_me": "Gareth Morgan creates expansive fantasy worlds filled with magic, intrigue, and adventure. His series often feature intricate plots and a wide array of characters, drawing readers into his vividly imagined universes.",
+                "linkedin": "https://linkedin.com/in/garethmorgan",
+                "instagram": "https://instagram.com/garethmorgan",
+                "twitter": "https://twitter.com/garethmorgan",
+                "youtube": "https://youtube.com/garethmorgan"
+            },
+            "title": "What is actuaries science and its scope",
+            "body": "Actuarial science makes use of mathematical and statistical techniques to evaluate risk in insurance and finance sectors. Experts that engage in this science of examining financial impacts of unforeseen circumstances are called actuaries. There are great job openings with actuarial science, and it also offers outstanding salary packages.\r\n\r\nCourse outlook\r\nAspirants of this wonderful course can obtain a degree in both graduate and postgraduate levels. Some of the certifications are M.Sc. in Actuarial Science, B.Sc. in Actuarial Science and Post Graduate Diploma in Actuarial Science among others.\r\nIn order to study any undergraduate course in actuarial science, a candidate is expected to complete their 12th with mathematics from a licensed board. Candidates that have successfully finished their undergraduate course in the related field can go on to study actuarial science. The university you plan to enter will be the determinant of the requirements, such as the minimum marks required. There are some colleges and universities that conduct their own tests and exams to fish out candidates that are eligible for the course. \r\nThere are several actuarial science colleges all over the world, and in India, some of them are:\r\n-\tUniversity of Kalyani, West Bengal\r\n-\tBerhampur University, Orissa\r\n-\tDS Actuarial Education Services, Mumbai\r\n-\tGoa University, Goa\r\n-\tKurukshetra University, Kurukshetra\r\n-\tGurunanak Dev University, Amritsar\r\n-\tAndhra University, Visakhapatnam\r\n-\tUniversity of Mumbai, Mumbai\r\n-\tAnnamalai University, Tamil Nadu\r\n-\tBirla Institute of Management Technology, New Delhi\r\n-\tUniversity of Madras, Chennai\r\n-\tRNIS College of Insurance, New Delhi\r\n\r\nScope in various sectors\r\nMany business, both small and big requires the service of actuaries. Even social events and contexts require actuaries. Some of the sectors in which actuaries have key roles are:\r\n-\tInvestment and Financial Services\r\n-\tEmployee Retirement and Benefit Plans\r\n-\tHealth Insurance\r\n-\tGeneral Insurances\r\n-\tVehicle Insurance\r\n-\tLife Insurance\r\n\r\nOther sectors that actuaries are important to are:\r\n\r\n-\tAsset Liability management in many sectors\r\n-\tPension Funds\r\n-\tBanks\r\n-\tInvestment firms\r\n-\tRisk Management\r\n-\tRating Agencies\r\n-\tHealth care sectors\r\n-\tEducation sectors\r\n-\tBPO\r\n-\tProject Management\r\n-\tHospitals\r\n\r\nRoles of actuaries\r\nWe have just listed the sectors that requires the services of actuaries, so what role do actuaries play in the listed sectors? What do they do? Well, there are many roles actuaries play in the above listed sectors, and their roles include Financial Insurance Consultants in IT sector, Insurance risk managers, Assistant Administrative Officer, Risk analysts, Administrating officer, and BPO administrator. They also perform the following roles: Actuary Director, General Officer, Financial Service Executive, Finance consultants in various Insurance sectors, Appointed Actuary, Actuarial Analyst and Health care directors/managers analysts. From the listed roles, you can see that actuarial science is important in many sectors. The roles actuaries play in financial and other sectors are huge, and in addition to the listed ones, here are other roles they fill: Accounts manager, Pension Providing administrator (other than in Insurance companies), Senior Actuarial Analyst and Asset Liability manager.\r\nInsurance companies, banks, healthcare centers and also private firms provide job opportunities for actuaries. Actuarial science is a wonderful course worthy of studying.",
+            "excerpt": "",
+            "tags": "actuaries science",
+            "contentSourceName": null,
+            "contentSourceURL": null,
+            "extraImageUrl": null,
+            "extraImageAttribution": null,
+            "imageOwnerName": null,
+            "imageOwnerBacklink": null,
+            "image": "https://s3.us-west-004.backblazeb2.com/encurate/static/blogsapi/2/What_is_actuaries_science_and_its_scope-What_is_actuaries_science_and_its_scope.jpg",
+            "videoURL": null,
+            "date_published": "2022-08-20T06:25:03.723250Z",
+            "website": null
+        }
+    ]
+}

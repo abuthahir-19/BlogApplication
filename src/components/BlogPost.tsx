@@ -30,9 +30,11 @@ const BlogPost = ({ image, category, title, date_published, author }: BlogPostPr
                 <img className="rounded-lg h-full w-full" src={image} alt="BlogPostImage" />
             </div>
             <div className="p-3 h-1/2 flex flex-col justify-evenly box-content">
-                <div>
-                    <span className="px-3 py-1 bg-blue-100 rounded-lg text-blue-600 mb-3 font-medium inline-block dark:bg-blue-800 dark:bg-opacity-15 dark:text-blue-500 text-sm sm:text-sm xs:text-sm xxs:text-sm ultra-xs:text-sm x-ultra-xs:text-xs">{category.title}</span>
-                </div>
+                    <div>
+                        <Link to={`/page/category/${category.id}/${category.title}`}>
+                            <span className="px-3 py-1 bg-blue-100 rounded-lg text-blue-600 mb-3 font-medium inline-block dark:bg-blue-800 dark:bg-opacity-15 dark:text-blue-500 text-sm sm:text-sm xs:text-sm xxs:text-sm ultra-xs:text-sm x-ultra-xs:text-xs">{category.title}</span>
+                        </Link>
+                    </div>
                 <h4 className="text-lg md:text-lg sm:text-base xs:text-base xxs:text-base ultra-xs:text-base x-ultra-xs:text-base font-bold text-slate-700 py-3 dark:text-white">{title}</h4>
                 <div className="flex justify-between items-center py-3">
                     <Link to={`/author/${author.id}/${author.name}`}>

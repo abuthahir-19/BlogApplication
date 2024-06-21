@@ -26,9 +26,11 @@ const HomePage = () => {
         };
 
         fetchPosts();
-
-
     }, []);
+
+    useEffect(() => {
+        window.scrollTo (0, 0);
+    })
 
     return (
         <main className={`dark:bg-gray-900`}>

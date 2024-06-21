@@ -19,6 +19,10 @@ const SinglePost = () => {
         // eslint-disable-next-line react-hooks/exhaustive-deps
     }, []);
 
+    useEffect(() => {
+        window.scrollTo (0, 0);
+    })
+
     useEffect (() => {
         if (isDarkMode === true) {
             document.getElementById ("excerpt")?.classList.add ("experpt");
