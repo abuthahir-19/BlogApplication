@@ -26,7 +26,7 @@ const AuthorPage = () => {
 
     useEffect (() => {
         window.scrollTo (0, 0);
-    })
+    });
 
     useEffect (() => {
         const fetchPosts = async () => {
