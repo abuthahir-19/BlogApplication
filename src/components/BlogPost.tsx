@@ -25,11 +25,11 @@ type BlogPostProps = {
 
 const BlogPost = ({ image, category, title, date_published, author }: BlogPostProps) => {
     return (
-        <div className="flex flex-col w-[310px] h-[430px] md:w-[320px] md:h-[440px] sm:w-[320px] sm:h-[440px] xs:w-[300px] xs:h-[420px] xxs:w-[300px] xxs:h-[420px] ultra-xs:w-[290px] ultra-xs:h-[410px] x-ultra-xs:w-[270px] x-ultra-xs:h-[390px] border-1 dark:border-slate-700 border-opacity-50 rounded-lg">
+        <div className="flex flex-col w-[320px] h-[480px] md:w-[320px] md:h-[440px] sm:w-[320px] sm:h-[440px] xs:w-[300px] xs:h-[420px] xxs:w-[300px] xxs:h-[420px] ultra-xs:w-[290px] ultra-xs:h-[410px] x-ultra-xs:w-[270px] x-ultra-xs:h-[390px] border-1 dark:border-slate-700 border-opacity-50 rounded-lg">
             <div className="p-3 h-1/2">
                 <img className="rounded-lg h-full w-full" src={image} alt="BlogPostImage" />
             </div>
-            <div className="p-3 h-1/2 flex flex-col justify-evenly box-content">
+            <div className="p-3 h-1/2 flex flex-col justify-between box-content">
                     <div>
                         <Link to={`/page/category/${category.id}/${category.title}`}>
                             <span className="px-3 py-1 bg-blue-100 rounded-lg text-blue-600 mb-3 font-medium inline-block dark:bg-blue-800 dark:bg-opacity-15 dark:text-blue-500 text-sm sm:text-sm xs:text-sm xxs:text-sm ultra-xs:text-sm x-ultra-xs:text-xs">{category.title}</span>
