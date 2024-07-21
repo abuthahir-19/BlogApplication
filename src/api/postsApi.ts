@@ -4,7 +4,7 @@ const postsApi = axios.create ({
     baseURL: "https://abuthahir-19.github.io/BlogsAPI/"
 });
 
-export const delay = () => new Promise<void> (res => setTimeout (() => res(), 1800));
+export const delay = () => new Promise<void> (res => setTimeout (() => res(), 3800));
 
 const getPosts = async (param: string) => {
     await delay();
