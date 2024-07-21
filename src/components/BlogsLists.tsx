@@ -3,13 +3,13 @@ import { Post } from "../contexts/AppContext";
 import BlogPost from "./BlogPost";
 
 type BlogsListsProps = {
-    posts: Post[]
+    posts: Post[] | undefined;
 }
 
 const BlogsLists = ({ posts }: BlogsListsProps) => {
     return (
         <div className="flex flex-row flex-wrap justify-center my-5 gap-6 w-full">
-            { posts.map (post => (
+            { posts?.map ((post: Post) => (
                 <Link to={`/blog/${post.title.split("").filter (c => c !== '?').join('')}/${post.id}`} key={post.id}>
                     <BlogPost
                         image={post.image} 

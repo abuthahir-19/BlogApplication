@@ -6,14 +6,15 @@ import { Post } from "../contexts/AppContext";
 import { Author } from "../components/BlogPost";
 import AuthorDetails from "../components/AuthorDetails";
 import BlogsLists from "../components/BlogsLists";
-import { useTheme } from "../hooks/useTheme";
-import axios from "axios";
+// import { useTheme } from "../hooks/useTheme";
 import ResponsiveNav from "../components/ResponsiveNav";
+import useSWR from "swr";
+import { getPosts } from "../api/postsApi";
 
 const AuthorPage = () => {
     const { authorID } = useParams();
     const [author, setAuthor] = useState<Author | undefined>(undefined);
-    const { posts, setPosts } = useTheme();
+    // const { posts, setPosts } = useTheme();
 
     useEffect(() => {
         const posts: Post[] = JSON.parse(localStorage.getItem('posts') as string);
@@ -24,25 +25,34 @@ const AuthorPage = () => {
         // console.log (currAuthor);
     }, [authorID]);
 
-    useEffect (() => {
-        window.scrollTo (0, 0);
+    useEffect(() => {
+        window.scrollTo(0, 0);
     });
 
-    useEffect (() => {
-        const fetchPosts = async () => {
-            try {
-                const response = await axios.get ('http://localhost:3500/latest-posts');
-                const data = response.data;
-                setPosts (data);
-                localStorage.setItem ('posts', JSON.stringify (data));
-            } catch (err) {
-                console.error (err);
-            }
-        };
+    const {
+        data: posts
+    } = useSWR<Post[]> (
+        '/',
+        _ => getPosts ('latest-posts'), {
+            suspense: true,
+        }
+    )
 
-        fetchPosts();
+    // useEffect(() => {
+    //     const fetchPosts = async () => {
+    //         try {
+    //             const response = await axios.get('http://localhost:3500/latest-posts');
+    //             const data = response.data;
+    //             setPosts(data);
+    //             localStorage.setItem('posts', JSON.stringify(data));
+    //         } catch (err) {
+    //             console.error(err);
+    //         }
+    //     };
 
-    }, [posts, setPosts]);
+    //     fetchPosts();
+
+    // }, [posts, setPosts]);
 
     return (
         <section className="dark:bg-slate-900">
