@@ -8,9 +8,9 @@ const BlogPostSkeleton = () => {
                 <div className="w-1/2">
                     <span className="py-2 bg-slate-300 rounded-md mb-3 inline-block w-full"></span>
                 </div>
-                <h4 className="bg-slate-300 animate-pulse w-full py-3 rounded-md"></h4>
-                <h4 className="bg-slate-300 animate-pulse w-full py-3 rounded-md"></h4>
-                <h4 className="bg-slate-300 animate-pulse w-1/2 py-3 rounded-md"></h4>
+                <div className="bg-slate-300 animate-pulse w-full py-3 rounded-md"></div>
+                <div className="bg-slate-300 animate-pulse w-full py-3 rounded-md"></div>
+                <div className="bg-slate-300 animate-pulse w-1/2 py-3 rounded-md"></div>
                 <div className="flex justify-between items-center py-3">
                     <div className="flex justify-evenly items-center w-1/2">
                         <div className="w-10 h-10 md:w-7 md:h-7 sm:w-7 sm:h-7 bg-slate-300 rounded-[50%] animate-pulse"></div>
